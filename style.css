@@ -31,4 +31,6 @@ body{
 
 .footer{
     flex-shrink: 0;
+    border-top: 5px solid gold;
+    background-color: royalblue;
 }

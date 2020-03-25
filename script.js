@@ -5,7 +5,7 @@ $('.carousel').carousel('cycle')
 
 
 window.scroll({
-    top: 2500, 
+    top: 0, 
     left: 0, 
     behavior: 'smooth'
   });
