@@ -14,11 +14,30 @@ html{
     border-bottom: 5px solid gold;
     background-color: royalblue;
     padding: 20px;
+    z-index: 0;
 }
 
 body{
     display: flex;
     flex-direction: column;
+}
+
+hr.broom {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.broom:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
 
 .container{
@@ -27,6 +46,10 @@ body{
     border-radius: 15px;
 }
 
+/* .container, hr{
+    border: none;
+} */
+
 .logo {
     display: block;
     margin: auto;
@@ -34,6 +57,10 @@ body{
 
 .google-reviews{
     flex: 1 0 auto;
+}
+
+#googleWidget.a{
+    background: none;
 }
 
 .footer{
