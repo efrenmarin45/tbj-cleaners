@@ -11,7 +11,7 @@ html{
 }
 
 .navbar{
-    border-bottom: 5px solid gold;
+    border-bottom: 8px solid gold;
     background-color: royalblue;
     padding: 20px;
     z-index: 0;
@@ -22,33 +22,29 @@ body{
     flex-direction: column;
 }
 
-hr.broom {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+#broom{
+    width: 156px;
+    height: 156px;
+    margin: auto;
 }
-hr.broom:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+
+#bucket{
+    width: 156px;
+    height: 156px;
+    margin: auto;
+}
+
+#cleanTools{
+    width: 156px;
+    height: 156px;
+    margin: auto;
 }
 
 .container{
     background-color: white;
-    border: solid 2px gold;
+    border: solid 6px gold;
     border-radius: 15px;
 }
-
-/* .container, hr{
-    border: none;
-} */
 
 .logo {
     display: block;
@@ -65,6 +61,6 @@ hr.broom:after {
 
 .footer{
     flex-shrink: 0;
-    border-top: 5px solid gold;
+    border-top: 8px solid gold;
     background-color: royalblue;
 }
