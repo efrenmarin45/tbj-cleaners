@@ -41,9 +41,10 @@ body{
 }
 
 .container{
-    background-color: white;
+    background-color: ghostwhite;
     border: solid 6px gold;
     border-radius: 15px;
+    margin: auto;
 }
 
 .logo {
