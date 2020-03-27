@@ -157,19 +157,19 @@
           <br>
           <h2 style="text-align: left" id="contactSection">Contact Us</h2>
           <p>Have a question? Want to get a complimentary quote? Let's talk!</p>
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
                 <div class="form-row">
                   <div class="form-group col-md-4">
                     <label for="validationTooltip01">First Name</label>
-                    <input type="text" class="form-control" id="inputFirstName">
+                    <input type="text" name="name" class="form-control" id="inputFirstName">
                   </div>
                   <div class="form-group col-md-4">
                     <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="inputLastName">
+                    <input type="text" name="name" class="form-control" id="inputLastName">
                   </div>
                   <div class="form-group col-md-4">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="inputEmail">
+                    <input type="email" name="email" class="form-control" id="inputEmail">
                   </div>
                 </div>
                 <div class="form-row">
@@ -189,7 +189,7 @@
                 <div class="form-group">
                     <div class="mb-3">
                         <label for="validationTextarea"></label>
-                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Please tell us about your inquiry" required></textarea>
+                        <textarea name="message" class="form-control is-invalid" id="validationTextarea" placeholder="Please tell us about your inquiry" required></textarea>
                         <div class="invalid-feedback">
                             Required
                         </div>
