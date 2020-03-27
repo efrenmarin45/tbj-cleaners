@@ -70,7 +70,7 @@ body{
     width: 45%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     #contactForm{
         width: auto;
     }
