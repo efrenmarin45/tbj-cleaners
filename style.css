@@ -65,3 +65,14 @@ body{
     border-top: 8px solid gold;
     background-color: royalblue;
 }
+
+#contactForm{
+    width: 45%;
+}
+
+@media (max-width: 1200px) {
+    #contactForm{
+        width: auto;
+    }
+}
+

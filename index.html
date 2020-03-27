@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -153,43 +154,27 @@
       <img src="./assets/images/cleaning-tools.png" alt="cleaning tools image" id="cleanTools">
       <br>
       <br>
-      <div class="container">
+      <div class="container" id="contactForm">
           <br>
           <h2 style="text-align: left" id="contactSection">Contact Us</h2>
           <p>Have a question? Want to get a complimentary quote? Let's talk!</p>
           <form name="contact" method="POST" data-netlify="true">
                 <div class="form-row">
-                  <div class="form-group col-md-4">
-                    <label for="validationTooltip01">First Name</label>
-                    <input type="text" name="name" class="form-control" id="inputFirstName">
+                  <div class="form-group col-md-12">
+                    <label for="validationTooltip01">First and Last Name</label>
+                    <input type="text" name="name" class="form-control" id="inputFirstName" required>
                   </div>
-                  <div class="form-group col-md-4">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="name" class="form-control" id="inputLastName">
-                  </div>
-                  <div class="form-group col-md-4">
+                </div>
+                  <div class="form-row">
+                  <div class="form-group col-md-12">
                     <label for="email">Email</label>
-                    <input type="email" name="email" class="form-control" id="inputEmail">
+                    <input type="email" name="email" class="form-control" id="inputEmail" required>
                   </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-4">
-                    <label for="businessname">Business Name</label>
-                    <input type="text" class="form-control" id="inputBusiness" value="Optional">
                   </div>
-                  <div class="form-group col-md-4">
-                      <label for="inputCity">City</label>
-                      <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
-                </div>
                 <div class="form-group">
                     <div class="mb-3">
-                        <label for="validationTextarea"></label>
-                        <textarea name="message" class="form-control is-invalid" id="validationTextarea" placeholder="Please tell us about your inquiry" required></textarea>
+                        <label for="validationCustom03"></label>
+                        <textarea name="message" class="form-control" id="validationCustom03" placeholder="Please tell us about your inquiry" required></textarea>
                         <div class="invalid-feedback">
                             Required
                         </div>
