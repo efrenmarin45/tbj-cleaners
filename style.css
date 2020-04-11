@@ -12,7 +12,7 @@ html{
 
 .navbar{
     border-bottom: 8px solid gold;
-    background-color: royalblue;
+    background-color: 	#add8e6;
     padding: 20px;
     z-index: 0;
 }
@@ -60,10 +60,17 @@ body{
     background: none;
 }
 
+
+.bottomLogo{
+    margin-bottom: 5%;
+}
+
+
 .footer{
     flex-shrink: 0;
     border-top: 8px solid gold;
-    background-color: royalblue;
+    background-color: #add8e6;
+    text-shadow: 2px 1px 2px black
 }
 
 #contactForm{
@@ -73,6 +80,16 @@ body{
 @media (max-width: 1000px) {
     #contactForm{
         width: auto;
+    }
+    #navbarLogo{
+        width: 160px;
+        height: 160px;
+    }
+    .carousel{
+        display: none;
+    }
+    .aboutUsContainer{
+        margin: 5%;
     }
 }
 
