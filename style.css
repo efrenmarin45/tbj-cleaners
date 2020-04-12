@@ -17,6 +17,10 @@ html{
     z-index: 0;
 }
 
+/* .contactPhone{
+    margin-left: 18rem;
+} */
+
 body{
     display: flex;
     flex-direction: column;
